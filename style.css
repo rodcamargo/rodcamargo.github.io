@@ -1,9 +1,13 @@
+* {
+    margin: 0;
+}
+
 body {
 
     background-color: rgb(29, 30, 34);
     font-family: "Epilogue", Verdana, sans-serif;
     color: rgb(244, 241, 222);
-    padding: 3%;
+    padding: 1%;
 }
 
 #indice {
@@ -52,10 +56,12 @@ h1, h2, h3 {
 
     font-size: 55px;
     padding-top: 80px;
+    padding-bottom: 20px;
 
 }
 
 #descricao {
+
     line-height: 25px;
 }
 
