@@ -1,21 +1,70 @@
 body {
-            font-family: "Epilogue", Verdana, sans-serif;
-            background-color: rgb(16, 21, 26);
-            color: rgb(244, 241, 222)
-        }
 
-        .button {
-            background-color: rgb(242, 204, 143);
-            color: rgb(16, 21, 26);
-            text-decoration: none;
-            line-height: 50px;
-            padding: 12px;
-            font-size: 15px;
-        }
-        li {
-            line-height: 30px;
-        }
+    background-color: rgb(29, 30, 34);
+    font-family: "Epilogue", Verdana, sans-serif;
+    color: rgb(244, 241, 222);
+    padding: 3%;
+}
 
-        h2, h3 {
-            color: rgb(242, 204, 143) ;
-        }
+#indice {
+
+    text-align: left;
+}
+
+.button {
+
+    background-color: rgb(242, 204, 143);
+    color: rgb(16, 21, 26);
+    text-decoration: none;
+    padding: 12px;
+    font-size: 15px;
+    margin: 4px;
+    line-height: 50px;
+}
+
+li {
+    line-height: 30px;
+    }
+
+h1, h2, h3 {
+        color: rgb(242, 204, 143) ;
+}
+
+.image-container {
+
+    height: 350px; 
+    text-align: justify;
+
+}
+
+#foto {
+
+    float: left;
+    width: 250px;
+    margin: 45px 45px 0 0;  
+    padding: 5px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+        
+#meuNome {
+
+    font-size: 55px;
+    padding-top: 80px;
+
+}
+
+#descricao {
+    line-height: 25px;
+}
+
+
+div {
+
+    border: 0px solid green;
+}
+
+
+
+    
