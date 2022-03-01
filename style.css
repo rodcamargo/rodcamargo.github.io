@@ -7,10 +7,10 @@ body {
     background-color: rgb(29, 30, 34);
     font-family: "Epilogue", Verdana, sans-serif;
     color: rgb(244, 241, 222);
-    padding: 1%;
+
 }
 
-#indice {
+nav {
 
     text-align: left;
 }
@@ -26,47 +26,76 @@ body {
     line-height: 50px;
 }
 
-li {
-    line-height: 30px;
-    }
+h1{
 
-h1, h2, h3 {
         color: rgb(242, 204, 143) ;
 }
 
 .image-container {
+    height: 370px;
 
-    height: 350px; 
-    text-align: justify;
+}
+#desc-left {
+    float: left;
+}
+
+#desc-right {
+    float: left;
+    max-width: 60%;
 
 }
 
 #foto {
 
-    float: left;
     width: 250px;
-    margin: 45px 45px 0 0;  
+    margin: 50px 50px 0px 0;  
     padding: 5px;
     background-color: white;
     border-radius: 100%;
 }
 
+li {
+
+    line-height: 30px;
+    list-style: none;
+}
+
+li:hover {
+    background-color: rgb(75, 91, 145) ;
+    color: rgb(16, 21, 26) ;
+}
+
+
+.subtitle { 
+
+    color: rgb(242, 204, 143) ;
+    text-align: center;
+}
         
 #meuNome {
-
-    font-size: 55px;
-    padding-top: 80px;
-    padding-bottom: 20px;
+    font-size: 70px;
+    padding-top: 65px;
+    margin-bottom: 20px;
+    font-family: "Cabin";
+    line-height: 80px;
 
 }
 
 #descricao {
-
     line-height: 25px;
 }
 
+.trio {
+    width: 300px;
+    height: 270px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: bottom;
 
-div {
+}
+
+article, section, div, footer {
 
     border: 0px solid green;
 }
