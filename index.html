@@ -17,66 +17,65 @@
         href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
-    <nav>
-        <a class="button" href="#descricao">Sobre Mim</a>
-        <a class="button" href="#formacao">Formação</a>
-        <a class="button" href="#skills">Competências</a>
-    </nav>
-    <article>
-        <section class="image-container">
-            <div id="desc-left">
-                <img id="foto" src="./imagens/foto.jpg" alt="Foto de Rodrigo Camargo">
-            </div>
-            <div id="desc-right" >
-                <h1 id="meuNome">Rodrigo Camargo</h1>
-                <p id="descricao">Olá mundo, tenho 36 anos de idade, <strong>casado e pai de um lindo
-                        menino.</strong><br>
-                    Nascido no Brasil, atualmente residindo em São Paulo - SP. Atuei 16 anos em gestão
-                    administrativa e
-                    design de produtos. <br>
-                    Atualmente estou em <em>transição de carreira e estudando desenvolvimento de software web.</em>
-                </p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <div class="trio">
-                    <h2 class="subtitle">Formação</h2>
-                    <br>
-                    <ul>
-                        <li>Bacharel em Administração</li>
-                        <li>Análise e Desenvolvimento de Sistemas</li>
-                        <li>Cursando Desenvolvimento de Software Web na Trybe</li>
-                    </ul>
-                </div>
-                <div class="trio">
-                    <h2 class="subtitle">Competências</h2>
-                    <br>
-                    <ul>
-                        <li>Criatividade</li>
-                        <li>Capacidade Analítica</li>
-                        <li>Trabalho em Equipe</li>
-                        <li>Tomada de Decisão</li>
-                    </ul>
-                </div>
-                <div class="trio">
-                    <h2 class="subtitle">Conhecimentos Específicos</h2>
-                    <br>
-                    <ul>
-                        <li>Corel Draw</li>
-                        <li>Photoshop</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </article>
+    <header>
+        <nav class="navButton">
+            <a id="firstButton" class="button" href="#descricao">Sobre Mim</a>
+            <a class="button" href="#formacao">Formação</a>
+            <a class="button" href="#skills">Competências</a>
+        </nav>
+    </header>
+    
+    <section class="image-container">
+        <div id="desc-left">
+            <img id="foto" src="./imagens/foto.jpg" alt="Foto de Rodrigo Camargo">
+        </div>
+        <div id="desc-right">
+            <h1 id="meuNome">Rodrigo Camargo</h1>
+            <p id="descricao">Olá mundo, tenho 36 anos de idade, <strong>casado e pai de um lindo
+                    menino.</strong><br>
+                Nascido no Brasil, atualmente residindo em São Paulo - SP. Atuei 16 anos em gestão
+                administrativa e
+                design de produtos. <br>
+                Atualmente estou em <em>transição de carreira e estudando desenvolvimento de software web.</em>
+            </p>
+        </div>
+    </section>
 
-    <footer id="social">
-        <a class="button" href="https://github.com/rodcamargo" target="_blank">Github</a>
+    <section class="trio">
+        <div class="skills">
+            <h2 class="subtitle">Formação</h2>
+            <br>
+            <ul>
+                <li>Bacharel em Administração</li>
+                <li>Análise e Desenvolvimento de Sistemas</li>
+                <li>Cursando Desenvolvimento de Software Web na Trybe</li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2 class="subtitle">Competências</h2>
+            <br>
+            <ul>
+                <li>Criatividade</li>
+                <li>Capacidade Analítica</li>
+                <li>Trabalho em Equipe</li>
+                <li>Tomada de Decisão</li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2 class="subtitle">Conhecimentos Específicos</h2>
+            <br>
+            <ul>
+                <li>Corel Draw</li>
+                <li>Photoshop</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <a id="firstButton" class="button" href="https://github.com/rodcamargo" target="_blank">Github</a>
         <a class="button" href="https://www.linkedin.com/in/rodrigocamargobr/" target="_blank">Linkedin</a>
     </footer>
 
